@@ -139,7 +139,7 @@ h5.name {
     align-items: center;
     position: absolute;
     top: 0;
-    left: 0;
+    left: 5px;
     right: 0;
     bottom: 0;
 }
