@@ -47,5 +47,15 @@
             
         </div>
     </section>
+
+    <!-- Adicionando o script para rotação do cartão no toque -->
+    <script>
+        const container = document.querySelector('.container');
+
+        // Detecta o toque e aplica a rotação
+        container.addEventListener('touchstart', function() {
+            container.classList.toggle('touched'); // Aplica ou remove a rotação
+        });
+    </script>
 </body>
 </html>
