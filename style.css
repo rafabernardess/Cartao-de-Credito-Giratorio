@@ -58,7 +58,13 @@ section::after {
     transform-style: preserve-3d;
 }
 
+/* Adicionando rotação no hover */
 .container:hover {
+    transform: rotateY(180deg);
+}
+
+/* Adicionando rotação ao toque no celular */
+.container.touched {
     transform: rotateY(180deg);
 }
 
