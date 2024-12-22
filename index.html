@@ -52,10 +52,17 @@
     <script>
         const container = document.querySelector('.container');
 
-        // Detecta o clique e aplica a rotação a cada clique
+        let rotateValue = 0; // Inicializa a rotação em 0 graus
+
+        // Detecta o clique e aplica a rotação alternando entre 0 e 180 graus
         container.addEventListener('click', function() {
-            container.style.transition = 'transform 0.6s'; // Definindo a duração da rotação
-            container.style.transform = `rotateY(${Math.random() * 360}deg)`; // Rotação aleatória a cada clique
+            rotateValue += 180; // A cada clique, incrementa 180 graus
+            if (rotateValue >= 360) {
+                rotateValue = 0; // Reseta para 0 após 360 graus
+            }
+
+            container.style.transition = 'transform 0.6s'; // Duração da rotação
+            container.style.transform = `rotateY(${rotateValue}deg)`; // Aplica a rotação
         });
     </script>
 </body>
