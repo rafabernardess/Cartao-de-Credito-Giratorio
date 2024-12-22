@@ -232,15 +232,8 @@ h5.name {
     border: none;
     padding: 15px 25px 25px 25px;
     transform: rotateY(180deg) translateZ(100px); /* Ajuste para centralizar */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 0;
-    left: 0;
     right: 10px;
-    bottom: 0;
+    
 }
 
 }
