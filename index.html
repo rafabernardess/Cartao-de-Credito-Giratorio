@@ -52,9 +52,10 @@
     <script>
         const container = document.querySelector('.container');
 
-        // Detecta o clique e aplica a rotação
+        // Detecta o clique e aplica a rotação a cada clique
         container.addEventListener('click', function() {
-            container.classList.toggle('touched'); // Aplica ou remove a rotação
+            container.style.transition = 'transform 0.6s'; // Definindo a duração da rotação
+            container.style.transform = `rotateY(${Math.random() * 360}deg)`; // Rotação aleatória a cada clique
         });
     </script>
 </body>
