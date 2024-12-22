@@ -1,4 +1,4 @@
-/*import Google Font - Poppins */
+/* Import Google Font - Poppins */
 @import url("https://fonts.googleapis.com/css?family=Poppins:wght@300,400,500,600&display=swap");
 
 * {
@@ -7,11 +7,21 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/* Garantir que o body ocupe toda a altura da tela */
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #121321;
+}
+
+/* Secção centralizada */
 section {
     position: relative;
     min-height: 100vh;
     width: 100%;
-    background: #121321;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -208,8 +218,4 @@ h5.name {
         margin-top: 10px;
     }
 
-    .card.back-face .signature {
-        margin-top: 50px;
-        height: 25px;
-    }
 }
