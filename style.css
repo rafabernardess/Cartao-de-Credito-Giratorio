@@ -127,11 +127,25 @@ h5.name {
     margin-top: 20px;
 }
 
+
+
 .card.back-face {
     border: none;
     padding: 15px 25px 25px 25px;
-    transform: rotateY(180deg);
+    transform: rotateY(180deg) translateZ(1px); /* Ajuste para centralizar */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
+
+/* Outros estilos do código permanecem os mesmos */
+
 
 .card.back-face h6 {
     font-size: 8px;
