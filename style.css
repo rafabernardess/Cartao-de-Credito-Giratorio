@@ -182,139 +182,34 @@ h5.name {
 
     .card.back-face .signature {
         margin-top: 60px;
-        height: 300px;
+        height: 30px;
     }
 }
 
 @media (max-width: 480px) {
-    /* Ajuste no body */
-    body {
-        width: 66%;
-        height: 100vh;  /* A altura ocupa 100% da tela */
-        margin: 0;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background: #121321; /* Cor de fundo */
-        overflow: hidden; /* Impede a rolagem */
-        position: relative;
+    .container {
+        width: 250px;
+        height: 150px;
     }
 
-    /* Ajuste no container */
-   /* Estilos iniciais para o container */
-.container {
-    width: 180px; /* Largura do cartão */
-    height: 100px; /* Altura do cartão */
-    padding: 5px;
-    transform: scale(0.8); /* Reduz o tamanho do cartão */
-    position: relative;
-    transform-style: preserve-3d; /* Permite o efeito de rotação 3D */
-    transition: transform 0.6s; /* Transição suave ao girar */
-}
-
-/* Parte de frente do cartão */
-.card {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden; /* Esconde a parte de trás quando o cartão estiver girado */
-}
-
-/* Estilo da frente do cartão */
-.card.front-face {
-    background-color: rgba(255, 255, 255, 0.1); /* Exemplo de cor de fundo */
-    /* Outros estilos para a parte da frente do cartão */
-}
-
-/* Estilo da parte de trás do cartão */
-.card.back-face {
-    background-color: rgba(0, 0, 0, 0.1); /* Exemplo de cor de fundo */
-    transform: rotateY(180deg); /* Inicialmente, a parte de trás está virada para trás */
-    /* Outros estilos para a parte de trás do cartão */
-}
-
-/* Efeito de rotação ao clicar */
-.container.clicked {
-    transform: rotateY(180deg); /* Girar o cartão para revelar a parte de trás */
-}
-    
-
-    /* Ajuste dos círculos */
-    section::before {
-        top: 400px; /* Ajusta a posição do primeiro círculo */
-        left: 100px; /* Ajusta a posição do primeiro círculo */
-        height: 200px; /* Círculos menores */
-        width: 200px;  /* Círculos menores */
-        transform: scale(0.7); /* Reduz os círculos */
-    }
-    
-
-    section::after {
-        bottom: 370px; /* Ajusta a posição do segundo círculo */
-        right: 170px; /* Ajusta a posição do segundo círculo */
-        height: 200px; /* Círculos menores */
-        width: 200px;  /* Círculos menores */
-        transform: scale(0.7); /* Reduz os círculos */
-    }
-
-    /* Ajustes no texto */
     h5 {
-        font-size: 15px; /* Texto ajustado */
-        line-height: 15px;
+        font-size: 12px;
     }
 
     h6 {
-        font-size: 10px; /* Ajuste do tamanho da fonte de h6 */
+        font-size: 8px;
     }
 
     h5.number {
-        font-size: 10px; /* Número do cartão ajustado */
-        letter-spacing: 0.5px;
+        font-size: 14px;
     }
 
     h5.name {
-        font-size: 10px; /* Nome ajustado */
-        margin-top: 5px; /* Margem reduzida */
-    }
-
-    /* Ajustes no chip */
-    .front-face .chip {
-        width: 20px; /* Chip do cartão ajustado */
-    }
-
-    /* Ajuste na logo */
-    .front-face .logo img {
-        width: 30px; /* Logo ainda menor */
-    }
-
-   
-
-    /* Ajustes no layout dos detalhes do cartão */
-    .front-face .card-details {
         margin-top: 10px;
-        flex-direction: column;
-        align-items: flex-start;
-        
     }
-
 
     .card.back-face .signature {
-        margin-top: 15px;  /* Menor distância da assinatura */
-        margin-left: 20px;  /* Mover para a direita */
-        height: 15px;
-    }
-
-    .card.back-face h5 {
-        font-size: 5px; /* Texto ainda menor */
-        margin-top: 5px;
-    }
-
-    /* Redução no espaçamento das bordas do cartão */
-   
-
-    /* Ajuste nos títulos e textos dentro do cartão */
-
-
+        margin-top: 50px;
+        height: 25px;
+    }
+}
