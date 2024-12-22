@@ -231,7 +231,7 @@ h5.name {
     .card.back-face {
     border: none;
     padding: 15px 25px 25px 25px;
-    transform: rotateY(180deg) translateZ(10px); /* Ajuste para centralizar */
+    transform: rotateY(180deg) translateZ(100px); /* Ajuste para centralizar */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -239,7 +239,7 @@ h5.name {
     position: absolute;
     top: 0;
     left: 0;
-    right: 0;
+    right: 10px;
     bottom: 0;
 }
 
