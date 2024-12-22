@@ -229,9 +229,6 @@ h5.name {
     }
 
     .card.back-face {
-    border: none;
-    padding: 15px 25px 25px 25px;
-    transform: rotateY(180deg) translateZ(100px); /* Ajuste para centralizar */
     right: 10px;
     
 }
