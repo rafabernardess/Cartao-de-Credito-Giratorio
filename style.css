@@ -58,13 +58,7 @@ section::after {
     transform-style: preserve-3d;
 }
 
-/* Adicionando rotação no hover */
 .container:hover {
-    transform: rotateY(180deg);
-}
-
-/* Adicionando rotação ao toque no celular */
-.container.touched {
     transform: rotateY(180deg);
 }
 
@@ -127,15 +121,11 @@ h5.name {
     margin-top: 20px;
 }
 
-
-
 .card.back-face {
     border: none;
     padding: 15px 25px 25px 25px;
     transform: rotateY(180deg);
-
-
-
+}
 
 .card.back-face h6 {
     font-size: 8px;
@@ -225,7 +215,7 @@ h5.name {
     }
 
     h5.name {
-        margin-top: 10px;
-    }
+        margin-top: 10px;
+    }
 
 }
