@@ -194,8 +194,12 @@ h5.name {
         margin-top: 15px;
     }
 
+     .card.front-face {
+        margin-left: -55px;
+    }    
+
     .card.back-face {
-        margin-left: -50px;
+        margin-left: -55px;
     }
 
     .card.back-face .signature {
