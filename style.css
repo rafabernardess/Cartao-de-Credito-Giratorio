@@ -191,7 +191,7 @@ h5.name {
     }
 
     .card.back-face {
-        padding-left: 70px;
+        margin-left: 70px;
     }
 
     .card.back-face .signature {
