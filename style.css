@@ -179,7 +179,7 @@ h5.name {
     }
 
     .front-face .card-details {
-        margin-top: -10px;
+        margin-top: 30px;
     }
 
     h5.number {
@@ -191,7 +191,7 @@ h5.name {
     }
 
     .card.back-face {
-        margin-left: 30px;
+        margin-left: -10px;
     }
 
     .card.back-face .signature {
