@@ -190,10 +190,14 @@ h5.name {
         margin-top: 15px;
     }
 
+    .card.back-face {
+        padding-left: 70px;
+    }
+
     .card.back-face .signature {
         margin-top: 60px;
         height: 30px;
-         padding-left: 50px;
+        
     }
 
  
