@@ -202,9 +202,13 @@ h5.name {
         margin-left: -55px;
     }
 
-   .signature h5 {
-    position: relative;
-    top: -50px; /* Ajuste conforme necessário */
+ .signature {
+    position: relative; /* Permite que o h5 se mova com top ou margin */
+}
+
+.signature h5 {
+    margin-top: -20px; /* Ajuste conforme necessário */
+    position: relative; /* Pode ser útil se você usar top */
 }
 
     .card.back-face .signature {
