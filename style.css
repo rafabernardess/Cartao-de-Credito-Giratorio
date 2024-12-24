@@ -194,7 +194,13 @@ h5.name {
         margin-top: 60px;
         height: 30px;
     }
+
+  .card.back-face  {
+    margin-top: 60px;
+    padding-left: 50px;  /* Ajuste o valor para mover para a direita */
+    height: 30px;
 }
+
 
 
 @media (max-width: 480px) {
