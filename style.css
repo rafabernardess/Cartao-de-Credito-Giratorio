@@ -193,14 +193,10 @@ h5.name {
     .card.back-face .signature {
         margin-top: 60px;
         height: 30px;
+         padding-left: 50px;
     }
 
-  .card.back-face  {
-    margin-top: 60px;
-    padding-left: 50px;  /* Ajuste o valor para mover para a direita */
-    height: 30px;
-}
-
+ 
 
 
 @media (max-width: 480px) {
